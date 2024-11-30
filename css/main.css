@@ -87,9 +87,14 @@ nav a {
     margin-top: 15px; 
 }
 
-.navbar{
+.navbar-collapse {
+    margin-bottom: 20px;
+}
+
+.navbar-nav{
     background-color: none;
-    padding: 10px;
+    padding: 10px 10px 20px 10px;
+    margin-bottom: 20px;
     border-radius: 10px;
 }
 .navbar ul{
@@ -100,15 +105,16 @@ nav a {
     overflow: hidden;
 }
 
-.navbar-nav.nav-link{
-    color: rgb(233, 161, 39);
+.navbar-nav .nav-link{
+    /* color: rgb(233, 161, 39); */
+    color:rgb(0, 164, 229);
     padding: 10px 20px;
     font-size: 1rem;
     font-weight: 500;
     transition: background-color 0.3s ease;
 }
 
-.navbar-nav.nav-link:hover{
+.navbar-nav .nav-link:hover{
     background-color: #dba26c;
     border-radius: 5px;
 }
